@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-tinggeshiqu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sweeteaa/nodejs-tinggeshiqu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sweeteaa/nodejs-tinggeshiqu/issues"
+  },
+  "homepage": "https://github.com/Sweeteaa/nodejs-tinggeshiqu#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.18.1",
+    "express-art-template": "^1.0.1"
+  }
+}
