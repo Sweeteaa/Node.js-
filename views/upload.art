@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        button {
+            margin-top: 6px;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-align:center;font-size: 80px;">音乐上传</p>
+    <div class="out">
+        <p>资源文件</p>
+        <div style="width: 1000px;height:40px;border: 1px solid gray;"><button>选择文件</button>未选择任何文件</div>
+        <p>歌手</p>
+        <input type="text" placeholder="请输入歌手" style="width: 1000px;height:40px;">
+        <p>歌名</p>
+        <input type="text" placeholder="请输入歌曲名字" style="width: 1000px;height:40px;">
+        <button style="width: 1000px;height:40px;background-color: skyblue;">上传</button>
+    </div>
+</body>
+
+</html>

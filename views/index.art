@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            text-align: center;
+            border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        th {
+            background-color: rgb(134, 129, 123);
+            color: aliceblue;
+        }
+        
+        button {
+            margin-left: 450px;
+            width: 100px;
+            height: 40px;
+            background-color: rgb(37, 37, 35);
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="text-align:center;font-size: 80px;">听歌识曲</p>
+    <button onclick="window.location.href='upload'">新增歌曲信息</button>
+    <table>
+        <tr>
+            <th>序号</th>
+            <th>歌手</th>
+            <th>歌名</th>
+            <th>音乐</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>周杰伦</td>
+            <td>等你下课</td>
+            <td><audio></audio></td>
+        </tr>
+    </table>
+</body>
+
+</html>
